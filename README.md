@@ -9,8 +9,8 @@ A **professional, responsive weather dashboard** that fetches real-time weather 
 
 ## 👤 Project Information
 
-- **Student Name:** [I.R.G.S.C.Herath]  
-- **Student ID:** [ITBIN-2211-0193]  
+- **Student Name:** I.R.G.S.C.Herath  
+- **Student ID:** ITBIN-2211-0193  
 - **Role:** Full-Stack Developer & DevOps Engineer (Individual Project)
 
 ---
@@ -27,11 +27,6 @@ This project allows users to search for any city worldwide and see:
 
 ---
 
-## 🌐 Live Deployment
-
-🔗 **Live URL:** [Your Vercel/Netlify/Render URL]
-
----
 
 ## 🛠️ Technologies Used
 
@@ -39,7 +34,7 @@ This project allows users to search for any city worldwide and see:
 - OpenWeatherMap API  
 - Font Awesome Icons  
 - GitHub Actions (CI/CD)  
-- Deployment: Vercel
+
 
 ---
 
@@ -66,7 +61,7 @@ We implemented the following branching strategy:
 
 ## 📌 Individual Contributions
 
-### [Your Name]
+### I.R.G.S.C.Herath
 - Repository setup and configuration  
 - GitHub Actions CI/CD pipeline  
 - Deployment setup to Vercel  
