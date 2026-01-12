@@ -80,7 +80,7 @@ We implemented the following branching strategy:
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/[your-username]/[your-repo].git
+git clone https://github.com/savindhayachamikara/weather.git
 
 # Navigate to project folder
 cd [your-repo]
