@@ -37,6 +37,11 @@ This project allows users to search for any city worldwide and see:
 
 <img width="1440" height="900" alt="Screenshot 2026-01-12 at 23 57 35" src="https://github.com/user-attachments/assets/46b40b5d-0967-488b-b027-4b7885f64e69" />
 
+<img width="1440" height="900" alt="Screenshot 2026-01-12 at 23 59 29" src="https://github.com/user-attachments/assets/f87a99c9-5972-400e-bc57-823f3f2e70ad" />
+<img width="1440" height="900" alt="Screenshot 2026-01-12 at 23 59 14" src="https://github.com/user-attachments/assets/0f512df1-e75d-4d59-8836-55db3792b505" />
+<img width="1440" height="900" alt="Screenshot 2026-01-12 at 23 59 02" src="https://github.com/user-attachments/assets/fdb70155-f519-4e39-a87c-33c9540aa7c6" />
+
+
 ---
 
 ## ✨ Features
