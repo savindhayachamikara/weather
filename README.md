@@ -35,6 +35,7 @@ This project allows users to search for any city worldwide and see:
 - Font Awesome Icons  
 - GitHub Actions (CI/CD)  
 
+<img width="1440" height="900" alt="Screenshot 2026-01-12 at 23 57 35" src="https://github.com/user-attachments/assets/46b40b5d-0967-488b-b027-4b7885f64e69" />
 
 ---
 
