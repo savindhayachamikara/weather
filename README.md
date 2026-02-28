@@ -1,98 +1,82 @@
-# Weather-Dashboard
-Advanced Git &amp; DevOps Team Collaboration Assignment - IT31023 - Systems Administration &amp; Maintenance
+Weather-Dashboard 🌤️
+Advanced Git & DevOps Team Collaboration Assignment – IT31023 – Systems Administration & Maintenance
+A professional, responsive weather dashboard that fetches real-time weather data from OpenWeatherMap API and displays current weather and a 5-day forecast. The project now includes Docker containerization for easy deployment, environment consistency, and faster setup across machines.
 
-# Advanced Weather Dashboard 🌤️
+👤 Project Information
+* Student Name: I.R.G.S.C.Herath 
+* Student ID: ITBIN-2211-0193 
+* Role: Full-Stack Developer & DevOps Engineer (Individual Project) 
 
-A **professional, responsive weather dashboard** that fetches real-time weather data from OpenWeatherMap API and displays current weather and a 5-day forecast. Includes dynamic backgrounds, icons, and responsive design for mobile and desktop.
+📖 Project Description
+This project allows users to search for any city worldwide and see:
+* Current temperature, weather condition, humidity, wind, visibility, and "feels like" temperature 
+* 5-day forecast with daily icons and temperatures 
+* Dynamic background changes based on weather conditions 
+* Fully responsive UI for desktop and mobile 
+* Real-time updates using OpenWeatherMap API 
+* Containerized deployment with Docker and Docker Compose for consistent environments 
+The application ensures seamless development, testing, and production deployments.
 
----
-
-## 👤 Project Information
-
-- **Student Name:** I.R.G.S.C.Herath  
-- **Student ID:** ITBIN-2211-0193  
-- **Role:** Full-Stack Developer & DevOps Engineer (Individual Project)
-
----
-
-## 📖 Project Description
-
-This project allows users to search for any city worldwide and see:  
-
-- Current temperature, weather condition, humidity, wind, visibility, and "feels like" temperature  
-- 5-day forecast with daily icons and temperatures  
-- Dynamic background changes based on weather conditions  
-- Fully responsive UI for desktop and mobile  
-- Real-time updates using OpenWeatherMap API
-
----
+🛠️ Technologies Used
+* HTML5, CSS3, JavaScript 
+* OpenWeatherMap API 
+* Font Awesome Icons 
+* Docker & Docker Compose 
+* GitHub Actions (CI/CD) 
 
 
-## 🛠️ Technologies Used
+✨ Features
+* Search any city worldwide 
+* Display current weather with icons and stats 
+* 5-day forecast 
+* Dynamic background transitions based on weather 
+* Responsive design for mobile and desktop 
+* Professional UI with colors, icons, and animations 
+* Dockerized application for easy deployment 
 
-- HTML5, CSS3, JavaScript  
-- OpenWeatherMap API  
-- Font Awesome Icons  
-- GitHub Actions (CI/CD)  
+🌿 Branch Strategy
+* main – Production-ready branch (auto-deployed via CI/CD) 
+* develop – Integration branch 
+* feature/* – Feature development branches 
 
-<img width="1440" height="900" alt="Screenshot 2026-01-12 at 23 57 35" src="https://github.com/user-attachments/assets/46b40b5d-0967-488b-b027-4b7885f64e69" />
+📌 Individual Contributions
+I.R.G.S.C.Herath
+* Repository setup and configuration 
+* GitHub Actions CI/CD pipeline 
+* Deployment setup to Vercel 
+* Implemented dynamic weather dashboard features 
+* Responsive design and UI styling 
+* Integrated OpenWeatherMap API 
+* Docker containerization and Compose orchestration 
 
-<img width="1440" height="900" alt="Screenshot 2026-01-12 at 23 59 29" src="https://github.com/user-attachments/assets/f87a99c9-5972-400e-bc57-823f3f2e70ad" />
-<img width="1440" height="900" alt="Screenshot 2026-01-12 at 23 59 14" src="https://github.com/user-attachments/assets/0f512df1-e75d-4d59-8836-55db3792b505" />
-<img width="1440" height="900" alt="Screenshot 2026-01-12 at 23 59 02" src="https://github.com/user-attachments/assets/fdb70155-f519-4e39-a87c-33c9540aa7c6" />
-
-
----
-
-## ✨ Features
-
-- Search any city worldwide  
-- Display current weather with icons and stats  
-- 5-day forecast  
-- Dynamic background transitions based on weather  
-- Responsive design  
-- Professional UI with colors, icons, and animations  
-
----
-
-## 🌿 Branch Strategy
-
-We implemented the following branching strategy:  
-
-- `main` - Production-ready branch (auto-deployed)  
-- `develop` - Integration branch  
-- `feature/*` - Feature development branches  
-
----
-
-## 📌 Individual Contributions
-
-### I.R.G.S.C.Herath
-- Repository setup and configuration  
-- GitHub Actions CI/CD pipeline  
-- Deployment setup to Vercel  
-- Implemented dynamic weather dashboard features  
-- Responsive design and UI styling  
-- Integrated OpenWeatherMap API  
-
----
-
-## ⚙️ Setup Instructions
-
-### Prerequisites
-- Node.js v18 or higher (for CI/CD)  
-- Git  
-
-### Installation
-```bash
+⚙️ Setup Instructions
+Prerequisites
+* Node.js v18 or higher (for CI/CD or local scripts) 
+* Git 
+* Docker & Docker Compose (for containerized setup) 
+Local Development
 # Clone the repository
 git clone https://github.com/savindhayachamikara/weather.git
 
 # Navigate to project folder
-cd [your-repo]
+cd weather
 
-# (Optional) Install dependencies if using linting
-npm install
+# Open index.html in browser OR use Live Server extension
+Dockerized Deployment
+# Build and start the containerized application
+docker-compose up --build
 
-# Run the project locally
-# Open index.html in browser OR use a live server extension
+# Access the application in browser
+# If using Codespaces, the mapped port will be displayed in the terminal
+# Default container port: 5000
+Notes
+* .dockerignore ensures unnecessary files are excluded from builds. 
+* Environment variables can be configured in docker-compose.yml for development, testing, and production. 
+* Health checks ensure the container restarts automatically if it becomes unhealthy. 
+
+📚 References
+* Docker Official Documentation 
+* OpenWeatherMap API Documentation 
+* Alpine Linux Official Documentation 
+* CIS Docker Benchmark 
+
