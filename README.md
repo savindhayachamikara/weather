@@ -57,7 +57,7 @@ Prerequisites
 * Docker & Docker Compose (for containerized setup) 
 Local Development
 # Clone the repository
-git clone https://github.com/savindhayachamikara/weather.git
+git clone [https://github.com/savindhayachamikara/weather.git](https://github.com/savindhayachamikara/weather )
 
 # Navigate to project folder
 cd weather
