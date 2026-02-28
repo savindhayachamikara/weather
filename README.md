@@ -1,4 +1,5 @@
 Weather-Dashboard 🌤️
+
 Advanced Git & DevOps Team Collaboration Assignment – IT31023 – Systems Administration & Maintenance
 A professional, responsive weather dashboard that fetches real-time weather data from OpenWeatherMap API and displays current weather and a 5-day forecast. The project now includes Docker containerization for easy deployment, environment consistency, and faster setup across machines.
 
